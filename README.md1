@@ -1,0 +1,138 @@
+# 🛡️ File Analysis System v3.0
+
+**Complete Malware Detection & Security Scanner**
+
+Created by: **Abdul Rehman** | Roll No: **22BSCYS053**
+
+---
+
+## 🎯 Features
+
+✅ **Automatic Scanning** - All uploaded files scanned instantly  
+✅ **Risk Assessment** - Each file gets risk score (0-100%)  
+✅ **Threat Detection** - Identifies malware, trojans, ransomware  
+✅ **Visual Alerts** - Dangerous files trigger red alerts  
+✅ **PDF Reports** - Professional reports auto-generated  
+✅ **Multi-File Support** - Batch scanning support  
+
+---
+
+## 🚀 How to Use
+
+### **Option 1: Google Colab (Recommended)**
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/file-analysis-system/blob/main/file_analyzer.ipynb)
+
+1. Click the badge above
+2. Run all cells
+3. Upload files when prompted
+4. View results & download PDF
+
+### **Option 2: Local Installation**
+```bash
+# Clone repository
+git clone https://github.com/YOUR_USERNAME/file-analysis-system.git
+cd file-analysis-system
+
+# Install dependencies
+pip install reportlab pandas ipython
+
+# Run the script (in Jupyter/Colab only)
+jupyter notebook file_analyzer.ipynb
+```
+
+---
+
+## 📋 Requirements
+```
+reportlab
+pandas
+ipython
+hashlib (built-in)
+```
+
+---
+
+## 🛡️ Detection Capabilities
+
+| Malware Type | Detection Method |
+|--------------|------------------|
+| Trojans & Backdoors | Signature + Behavior |
+| Ransomware | Hash Matching + Heuristics |
+| Worms & Viruses | Pattern Recognition |
+| Suspicious Scripts | Content Analysis |
+| Potentially Unwanted Programs | Risk Scoring |
+
+---
+
+## 📊 How It Works
+
+1. **File Hash Calculation** - SHA-256 cryptographic hash
+2. **Signature Matching** - Compare against malware database
+3. **Extension Analysis** - Identify risky file types
+4. **Heuristic Scanning** - Analyze suspicious patterns
+5. **Risk Assessment** - Calculate overall threat score
+6. **Report Generation** - Create detailed PDF report
+
+---
+
+## 🎨 Screenshots
+
+### Main Interface
+![System Interface](https://via.placeholder.com/800x400/1a237e/ffffff?text=File+Analysis+System)
+
+### Threat Alert
+![Critical Alert](https://via.placeholder.com/800x300/c62828/ffffff?text=Critical+Threat+Detected)
+
+### PDF Report
+![PDF Report](https://via.placeholder.com/800x400/2e7d32/ffffff?text=Professional+PDF+Report)
+
+---
+
+## ⚠️ Important Notes
+
+- **Google Colab Only**: This tool is designed for Google Colab environment
+- **No Permanent Storage**: Files are scanned but not stored
+- **PDF Downloads**: Save reports immediately after generation
+- **Session Timeout**: Colab sessions expire after 12 hours of inactivity
+
+---
+
+## 🔒 Security Features
+
+- ✅ SHA-256 Hash Verification
+- ✅ Malware Signature Database
+- ✅ Heuristic Analysis
+- ✅ Behavioral Pattern Detection
+- ✅ Risk Score Calculation
+- ✅ Detailed Threat Reporting
+
+---
+
+## 📄 License
+
+MIT License - Free to use and modify
+
+---
+
+## 👨‍💻 Author
+
+**Abdul Rehman**  
+Roll No: 22BSCYS053  
+Email: your.email@example.com
+
+---
+
+## 🤝 Contributing
+
+Contributions welcome! Please open an issue or submit a pull request.
+
+---
+
+## ⭐ Support
+
+If you find this useful, please give it a ⭐ on GitHub!
+
+---
+
+**Made with ❤️ for Cybersecurity**
